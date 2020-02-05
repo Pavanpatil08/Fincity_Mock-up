@@ -1,0 +1,185 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-box{
+    background-color: #34B1B9;
+    height:800px;
+}
+.logodiv{
+    align-content: center;
+}
+.logo{
+    height:50px;
+    width:50px;
+    margin-left: 620px;
+    margin-top: 30px;
+}
+.head1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius:25px ;
+    border: 2px solid rgb(92, 179, 206);
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.card1{
+    height: 200px;
+    flex-basis: 27%;
+    margin: 20px;
+    background-color: white;
+    border-radius:25px;
+}
+.card1-num1{
+    width:50px;
+    height: 50px;
+    background-color:aqua;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-left: -20px;
+    border: 10px solid #34B1B9;
+}
+.card1-num1 h1{
+    text-align: center;
+    margin-top: 5px;
+    color: #34B1B9;
+}
+.card1-head1{
+    width:230px;
+    height: 50px;
+    background-color:#34b1b9;
+    background: radial-gradient(circle at left , transparent 50px, #01b7c4 50px);;
+    margin-top: -60px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    shape-outside: border-box;
+    border-radius:   100px 40px 0 40px ;
+    border-block-start:50px;
+    justify-content: center;
+}
+.head5{
+    text-align: center;
+    color:aqua;
+    text-align-last: auto;
+}
+.card1-head1+p{
+    color: #34B1B9;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.A{
+    background-color:white !important
+}
+.card2{
+    height: 200px;
+    width: 27%;
+    margin: 20px;
+    border-radius:25px;
+    background-color: aqua;
+
+}
+.A-head{
+    background: radial-gradient(circle at left , transparent 50px,  #004d4d 50px);;
+}
+.head2{
+    color:white;
+    text-align-last: center;
+    text-align: justify;
+    
+}
+.card2 p{
+    color: rgb(41, 32, 32);
+}
+/* fotter styles */
+.fotter{
+    height: 500px;
+    background-color: white;
+}
+.fotter-logo{
+    height: 30px;
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.location{
+    height: 170px;
+    width: 200px;
+    margin-left: 38px;
+}
+.fotter-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+}
+.fotter-card{
+    height: 200px;
+    flex-basis: 15%;
+}
+button{
+    width:150px;
+    height: 50px;
+    background-color: #34B1B9;
+    border-radius: 5px;
+    border: 2px solid #34B1B9;
+    color: white;
+    margin-bottom: 10px;
+}
+.fotter-card p{
+    color: rgb(83, 72, 72);
+}
+.fotter-text{
+    color: rgb(83, 72, 72);
+}
+.experian-logo{
+    height: 50px;
+    width: 150px;
+}
+/* media quiers for mobile screen */
+@media  screen and (max-width:800px){
+    .main-box{
+        background-color: #34B1B9;
+        height:1700px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .card1{
+        flex-basis: 100%;
+    }
+    .card1-head1{
+        width:230px;
+        justify-content: center;
+    }
+    .card2{
+        flex-basis: 100%;
+    }
+    .fotter-card{
+        flex-basis: 100%;
+    }
+}
+/* media quiers for large screen */
+@media screen and (max-width:1200px){
+    .container{
+        /* height: 1000px; */
+        margin-left: 10px;
+    }
+    .card1{
+        width: 30%
+    }
+    .card2{
+        width: 30%
+    }
